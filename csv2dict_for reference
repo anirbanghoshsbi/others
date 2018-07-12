@@ -1,0 +1,11 @@
+# Converting CSV to Dictionary for easy exploration
+signs = {}
+reader = csv.DictReader(open('signnames.csv'))
+for row in reader:
+    signs[int(row['ClassId'])] = row['SignName']
+for k, v in signs.items():
+    if k > 5 and k < 38:
+        continue
+    if k == 38:
+        print("...")
+    print(str(k) + ' : ' + v)
