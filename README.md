@@ -4,4 +4,4 @@ Other than the topics mentioned herein above
 
 from collections import Counter
 
-bigrams = list(Counter(ngrams(Dictionary,2)))```
+bigrams = list(Counter(ngrams(Dictionary,2)))
