@@ -1,6 +1,7 @@
 # others
 Other than the topics mentioned herein above
-```from nltk.util import ngrams
+```
+from nltk.util import ngrams
 
 from collections import Counter
 
